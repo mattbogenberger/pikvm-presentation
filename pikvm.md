@@ -13,7 +13,9 @@ Bogey recently built a PiKVM kit and will walk you through the build process, se
 ## Presentation
 
 ### Introduction
+
 ### Background
+
 #### Terminology
 - [KVM](https://en.wikipedia.org/wiki/Rackmount_KVM): keyboard, video, and mouse
 - [KVM over IP](https://en.wikipedia.org/wiki/KVM_switch#KVM_over_IP_(IPKVM)): allows remote control via the network
@@ -25,6 +27,9 @@ Bogey recently built a PiKVM kit and will walk you through the build process, se
 - LOM:
     - "lights-out management"
     - used for remote/off-site managament of machines
+#### Cost
+![KVM prices](https://i.imgur.com/oYzGJw2.png)
+
 ### Build
 
 Parts included in [PiKVM kit](https://www.pishop.us/product/pikvm-v3-hat-for-raspberry-pi-4/)
@@ -54,8 +59,21 @@ You will also need:
     - Run updates
 
 ### Usage
-### KVM switch
+
+Demo time!
+
+### [KVM switch](https://docs.pikvm.org/multiport/)
+
+Use PiKVM with multiple machines by connecting a KVM switch
+
+[EZCOO KVM switch](https://www.amazon.com/Extractor-Peripheral-Keyboard-Wireless-120Hz144Hz/dp/B082D7YJH6)
+![EZCOO KVM switch](https://m.media-amazon.com/images/I/71V2-z5LoqL._SL1500_.jpg)
+[PiKVM docs](https://docs.pikvm.org/ezcoo/)
+
 ### Considerations
-#### Video source
-#### Concurrent usage
+
+- Video source
+- Concurrent usage
+- No audio
+
 ### Conclusion
