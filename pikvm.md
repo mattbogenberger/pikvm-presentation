@@ -36,7 +36,23 @@ Parts included in [PiKVM kit](https://www.pishop.us/product/pikvm-v3-hat-for-ras
 Parts included with case
 ![Parts included with case](https://cdn11.bigcommerce.com/s-2fbyfnm8ev/images/stencil/1280x1280/products/1448/5342/1792-h__92809.1639412638.jpg?c=2)
 
-### Setup
+You will also need:
+- HDMI cables
+- USB-C to USB-A cable
+- USB-A to USB-A cables
+- Ethernet cable(s)
+- USB-A to Micro USB cable (only for console to KVM switch)
+
+### [Setup](https://docs.pikvm.org/v3/#basic-setup)
+1. [Flash image onto SD card](https://docs.pikvm.org/flashing_os/)
+2. Insert SD card and connect cables
+3. Wire ATX controller into machine and connect to PiKVM via Ethernet cable
+4. Power up PiKVM
+5. Check web interface
+6. SSH in as root
+    - Change passwords for root and web user
+    - Run updates
+
 ### Usage
 ### KVM switch
 ### Considerations
